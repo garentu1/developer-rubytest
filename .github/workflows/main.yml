@@ -2,7 +2,6 @@ name: Tadaima_Madepaka
 on: [push, pull_request]
 jobs:
   build:
-    name: Gthub
     runs-on: windows-latest
     strategy:
       max-parallel: 20
